@@ -4,7 +4,7 @@
 
 本文档用于公开发布时说明本仓库“复现到了什么程度”。它是 README 的结果依据，也是避免误把受控实验表述成论文全表复现的边界文件。
 
-## 1. 一句话结论
+## 1. 结论
 
 本仓库已经较好复现了 PDPTW 双向标签列生成的核心实现，并在 12 个 full-size 代表样本上验证了 root LP / pricing-only 链路，在从这些样本派生的 12 个 6-request 子实例上验证了 BCP pricing-loop 链路。补充的 `AA30` 子实例规模边界实验显示，当前 exact bidirectional dynamic BCP 能在 8-15 request 子实例上证明最优，但 18 request 已经在本次 5 分钟级设置下超时。当前结果可以说明双向标签已经实际进入 BCP pricing loop，但不能声明已经复现论文 220 个 full-size 算例表格。
 
