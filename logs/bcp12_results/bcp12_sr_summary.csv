@@ -1,0 +1,13 @@
+paperGroup,sourceInstance,subInstance,pricing,cuts,maxNodes,maxCgIterations,maxSetBranchSize,status,rootLb,integerUb,gap,nodes,columns,activeCuts,pricingCalls,forwardLabels,backwardLabels,dominatedLabels,pricingTimeMs,totalTimeMs,traceRows,exitCode
+RC,AA30,AA30_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,216.5822544624,216.5822544624,0.0000000000,1,67,0,2,150,162,53,54,130,1,0
+RC,BB30,BB30_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,366.6449943931,366.6449943931,0.0000000000,1,41,0,2,95,90,15,41,136,1,0
+RC+,AA30_rcplus,AA30_rcplus_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,208.0708376937,208.0708376937,0.0000000000,1,134,0,2,362,325,255,111,186,1,0
+RC+,BB30_rcplus,BB30_rcplus_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,366.6449943931,366.6449943931,0.0000000000,1,42,0,2,143,129,19,52,136,1,0
+LL,lc101.txt,lc101_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,59.6180775421,59.6180775421,0.0000000000,1,42,0,2,265,244,111,62,145,1,0
+LL,lr101.txt,lr101_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,409.5828189757,409.5828189757,0.0000000000,1,6,0,2,56,32,0,22,88,1,0
+RC_reverse,AA30_reverse,AA30_reverse_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,216.5822544624,216.5822544624,0.0000000000,1,67,0,2,162,141,53,53,118,1,0
+RC_reverse,DD30_reverse,DD30_reverse_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,415.1671610456,415.1671610456,0.0000000000,1,52,0,2,126,102,22,50,132,1,0
+RC+_reverse,AA30_rcplus_reverse,AA30_rcplus_reverse_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,208.0708376937,208.0708376937,0.0000000000,1,134,0,2,333,353,255,111,187,1,0
+RC+_reverse,DD30_rcplus_reverse,DD30_rcplus_reverse_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,346.0029091916,346.0029091916,0.0000000000,1,111,0,2,312,262,173,91,166,1,0
+LL_reverse,lc101.txt_reverse,lc101_reverse_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,146.3006391234,146.3006391234,0.0000000000,1,33,0,2,226,211,48,48,113,1,0
+LL_reverse,lr101.txt_reverse,lr101_reverse_n6,bidir-dynamic,sr,20,100,3,optimal_benchmark_branch_tree,292.8521738625,292.8521738625,0.0000000000,1,8,0,2,95,53,4,34,114,1,0

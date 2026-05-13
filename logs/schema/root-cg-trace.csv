@@ -1,0 +1,1 @@
+traceType,instance,mode,iteration,lpObjective,bestReducedCost,addedColumns,columnCount,cutsActive,forwardLabels,backwardLabels,dominatedLabels,pricingTimeMs,exactPricing,pricingStatus

@@ -1,0 +1,1 @@
+mode,instance,paperGroup,format,requests,vertices,capacity,maxVehicles,seedColumns,finalColumns,lpSolveStatus,status,lpObjective,positiveArtificial,candidateRoutes,iterations,addedColumns,remainingNegativeCandidates,bestCandidateRc,bestCandidateRoute,totalTimeMs

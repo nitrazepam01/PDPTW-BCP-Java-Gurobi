@@ -1,0 +1,8 @@
+command:
+run.bat bcp --instance G:/bid/PDPTW_instances/RC/AA30 --pricing bidir-dynamic --cuts none --max-nodes 1 --max-cg-iterations 20 --max-set-branch-size 1 --max-route-requests 3 --max-three-request-routes 600
+
+result:
+Timed out after 600 seconds during full-size exact-labeling BCP probe.
+
+interpretation:
+The benchmark text BCP entry and exact labeling path are open, but the current implementation is not fast enough to finish the 30-request AA30 full-size instance under this controlled probe.

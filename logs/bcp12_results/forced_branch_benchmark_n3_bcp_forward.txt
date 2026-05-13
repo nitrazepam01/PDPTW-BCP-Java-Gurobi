@@ -1,0 +1,6 @@
+instance,mode,status,rootLb,integerUb,gap,nodes,columns,cuts,pricingCalls,forwardLabels,backwardLabels,dominatedLabels,pricingTimeMs,totalTimeMs
+forced_branch_benchmark_n3,bcp,optimal_benchmark_branch_tree,6.4037430008,8.2074860016,0.2197680265,3,15,0,6,1140,0,0,9,81
+traceType,instance,nodeId,depth,constraints,activeCutCount,lowerBound,incumbentUpperBound,bestReducedCost,pricingCalls,pricedColumns,generatedColumns,forwardLabels,backwardLabels,dominatedLabels,pricingTimeMs,pruneReason,branchType
+bcp-node,forced_branch_benchmark_n3,root,0,,0,6.4037430008,NA,0.0000000000,2,15,15,380,0,0,8,branched_vehicle_count,VEHICLE_COUNT
+bcp-node,forced_branch_benchmark_n3,root/vehicle_count_ge_2,1,sum_lambda >= 2,0,8.2074860016,8.2074860016,0.0000000000,2,14,14,380,0,0,1,incumbent,
+bcp-node,forced_branch_benchmark_n3,root/vehicle_count_le_1,1,sum_lambda <= 1,0,1000000004.2000000000,8.2074860016,0.0000000000,2,15,15,380,0,0,0,positive_artificial,

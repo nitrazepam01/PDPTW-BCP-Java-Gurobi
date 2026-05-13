@@ -1,0 +1,39 @@
+# Build outputs
+out/
+out-test/
+target/
+build/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local solver/runtime configuration
+*.lic
+*.key
+.env
+.env.*
+
+# Benchmark data included for reproducible local experiments.
+logs/bcp12_inputs/
+logs/paper12_inputs/
+logs/bcp_size_boundary/AA30_n*
+
+# Temporary drafts and ad-hoc outputs
+deferred-node07-drafts/
+logs/aa30-benchmark-bcp-*.txt
+
+# Large packaged artifacts
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Do not vendor proprietary solver libraries
+*.jar
+*.dll
+*.so
+*.dylib

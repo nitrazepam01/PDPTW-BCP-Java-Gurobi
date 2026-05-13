@@ -1,0 +1,13 @@
+paperGroup,instance,command,exitCode,classification,message
+RC,AA30,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+RC,BB30,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+RC+,AA30_rcplus,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+RC+,BB30_rcplus,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+LL,lc101.txt,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+LL,lr101.txt,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+RC_reverse,AA30_reverse,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+RC_reverse,DD30_reverse,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+RC+_reverse,AA30_rcplus_reverse,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+RC+_reverse,DD30_rcplus_reverse,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+LL_reverse,lc101.txt_reverse,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only
+LL_reverse,lr101.txt_reverse,bcp-default,2,route_universe_rejected,ERROR: Benchmark RC/LL BCP requires explicit labeling pricing; for example --pricing bidir-dynamic; route-universe exact pricing is tiny-only

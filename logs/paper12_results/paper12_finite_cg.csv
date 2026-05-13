@@ -1,0 +1,13 @@
+paperGroup,label,source,mode,programPaperGroup,requests,vertices,capacity,seedColumns,finalColumns,lpObjective,positiveArtificial,candidateRoutes,iterations,addedColumns,remainingNegativeCandidates,bestCandidateRc,totalTimeMs,status
+RC,AA30,local,root-finite-cg-smoke,RC,30,62,15,33,299,1250.9946790569,false,1121,5,266,0,0.0000000000,152,restricted_finite_cg_pool_no_negative
+RC,BB30,local,root-finite-cg-smoke,RC,30,62,20,33,277,1266.8772587978,false,1105,5,244,0,-0.0000000000,196,restricted_finite_cg_pool_no_negative
+RC+,AA30_rcplus,generated_rcplus,root-finite-cg-smoke,RC,30,62,25,32,345,1134.0320238203,false,1433,5,313,0,-0.0000000000,169,restricted_finite_cg_pool_no_negative
+RC+,BB30_rcplus,generated_rcplus,root-finite-cg-smoke,RC,30,62,30,33,304,1211.0086572909,false,1326,5,271,0,0.0000000000,175,restricted_finite_cg_pool_no_negative
+LL,lc101.txt,local,root-finite-cg-smoke,LL,53,108,200,63,150,828.9368669428,false,1482,4,87,0,0.0000000000,299,restricted_finite_cg_pool_no_negative
+LL,lr101.txt,local,root-finite-cg-smoke,LL,53,108,200,72,218,1661.2523225328,false,539,4,146,0,-0.0000000000,1158,restricted_finite_cg_pool_no_negative
+RC_reverse,AA30_reverse,local,root-finite-cg-smoke,RC_reverse,30,62,15,33,299,1250.9946790569,false,1121,5,266,0,0.0000000000,184,restricted_finite_cg_pool_no_negative
+RC_reverse,DD30_reverse,local,root-finite-cg-smoke,RC_reverse,30,62,20,33,363,1333.1197940078,false,1304,7,330,0,0.0000000000,155,restricted_finite_cg_pool_no_negative
+RC+_reverse,AA30_rcplus_reverse,generated_rcplus_from_reverse,root-finite-cg-smoke,RC_reverse,30,62,25,32,345,1134.0320238203,false,1433,5,313,0,-0.0000000000,153,restricted_finite_cg_pool_no_negative
+RC+_reverse,DD30_rcplus_reverse,generated_rcplus_from_reverse,root-finite-cg-smoke,RC_reverse,30,62,30,32,349,1185.3717437902,false,1695,6,317,0,0.0000000000,148,restricted_finite_cg_pool_no_negative
+LL_reverse,lc101.txt_reverse,local,root-finite-cg-smoke,LL_reverse,53,108,200,63,124,828.9368669428,false,1482,5,61,0,0.0000000000,322,restricted_finite_cg_pool_no_negative
+LL_reverse,lr101.txt_reverse,local,root-finite-cg-smoke,LL_reverse,53,108,200,73,229,1661.2523225328,false,539,3,156,0,-0.0000000000,1198,restricted_finite_cg_pool_no_negative

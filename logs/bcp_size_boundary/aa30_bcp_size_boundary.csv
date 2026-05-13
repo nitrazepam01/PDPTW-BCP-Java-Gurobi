@@ -1,0 +1,6 @@
+source,subinstance,requests,vertices,pricing,cuts,max_nodes,max_cg_iterations,max_set_branch_size,max_route_requests,max_three_request_routes,status,root_lb,integer_ub,gap,nodes,columns,active_cuts,pricing_calls,forward_labels,backward_labels,dominated_labels,pricing_time_ms,total_time_ms,wall_timeout_ms,interpretation
+AA30,AA30_n8,8,18,bidir-dynamic,sr,50,200,3,3,1000,optimal_benchmark_branch_tree,235.6542352841,235.6542352841,0.0000000000,1,189,0,2,415,442,267,153,306,,solved_to_optimality_at_root
+AA30,AA30_n10,10,22,bidir-dynamic,sr,50,200,3,3,1500,optimal_benchmark_branch_tree,357.1842011600,357.1842011600,0.0000000000,1,300,0,2,634,990,323,386,667,,solved_to_optimality_at_root
+AA30,AA30_n12,12,26,bidir-dynamic,sr,50,200,3,3,2000,optimal_benchmark_branch_tree,421.6994298142,421.6994298142,0.0000000000,1,473,0,2,1105,1244,794,619,1201,,solved_to_optimality_at_root
+AA30,AA30_n15,15,32,bidir-dynamic,sr,80,300,3,3,3000,optimal_benchmark_branch_tree,523.2750479826,523.2750479826,0.0000000000,1,805,0,2,4127,3883,1371,112946,143455,,solved_to_optimality_at_root_but_runtime_jumps
+AA30,AA30_n18,18,38,bidir-dynamic,sr,80,300,3,3,5000,timeout,,,,,,,,,,,,,304000,timeout_before_completion

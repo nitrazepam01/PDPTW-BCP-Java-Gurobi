@@ -1,0 +1,4 @@
+instance,mode,status,rootLb,integerUb,gap,nodes,columns,cuts,pricingCalls,forwardLabels,backwardLabels,dominatedLabels,pricingTimeMs,totalTimeMs
+lr101_reverse_n6,bcp,optimal_benchmark_branch_tree,292.8521738625,292.8521738625,0.0000000000,1,8,0,2,95,53,4,34,114
+traceType,instance,nodeId,depth,constraints,activeCutCount,lowerBound,incumbentUpperBound,bestReducedCost,pricingCalls,pricedColumns,generatedColumns,forwardLabels,backwardLabels,dominatedLabels,pricingTimeMs,pruneReason,branchType
+bcp-node,lr101_reverse_n6,root,0,,0,292.8521738625,292.8521738625,0.0000000000,2,8,8,95,53,4,34,incumbent,

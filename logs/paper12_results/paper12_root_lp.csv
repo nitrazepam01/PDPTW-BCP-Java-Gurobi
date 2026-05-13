@@ -1,0 +1,13 @@
+paperGroup,label,source,mode,programPaperGroup,requests,vertices,capacity,seedColumns,lpObjective,positiveArtificial,candidateRoutes,negativeCandidates,bestCandidateRc,totalTimeMs,status
+RC,AA30,local,root-lp-pricing-smoke,RC,30,62,15,33,1260.6191003868,false,1121,541,-71.2572789887,133,restricted_lp_candidate_negative
+RC,BB30,local,root-lp-pricing-smoke,RC,30,62,20,33,1278.5978259361,false,1105,491,-58.1390157669,173,restricted_lp_candidate_negative
+RC+,AA30_rcplus,generated_rcplus,root-lp-pricing-smoke,RC,30,62,25,32,1145.6653655630,false,1433,600,-98.2773556552,200,restricted_lp_candidate_negative
+RC+,BB30_rcplus,generated_rcplus,root-lp-pricing-smoke,RC,30,62,30,33,1218.5629250727,false,1326,627,-57.2126961015,147,restricted_lp_candidate_negative
+LL,lc101.txt,local,root-lp-pricing-smoke,LL,53,108,200,63,828.9368669428,false,1482,61,-51.5902225508,326,restricted_lp_candidate_negative
+LL,lr101.txt,local,root-lp-pricing-smoke,LL,53,108,200,72,2008.5548992382,false,539,153,-111.5022618802,1174,restricted_lp_candidate_negative
+RC_reverse,AA30_reverse,local,root-lp-pricing-smoke,RC_reverse,30,62,15,33,1260.6191003868,false,1121,541,-71.2572789887,143,restricted_lp_candidate_negative
+RC_reverse,DD30_reverse,local,root-lp-pricing-smoke,RC_reverse,30,62,20,33,1333.1197940078,false,1304,524,-97.1078169268,126,restricted_lp_candidate_negative
+RC+_reverse,AA30_rcplus_reverse,generated_rcplus_from_reverse,root-lp-pricing-smoke,RC_reverse,30,62,25,32,1145.6653655630,false,1433,601,-98.2773556552,147,restricted_lp_candidate_negative
+RC+_reverse,DD30_rcplus_reverse,generated_rcplus_from_reverse,root-lp-pricing-smoke,RC_reverse,30,62,30,32,1185.3717437902,false,1695,555,-99.2944121067,148,restricted_lp_candidate_negative
+LL_reverse,lc101.txt_reverse,local,root-lp-pricing-smoke,LL_reverse,53,108,200,63,828.9368669428,false,1482,52,-46.1785290405,310,restricted_lp_candidate_negative
+LL_reverse,lr101.txt_reverse,local,root-lp-pricing-smoke,LL_reverse,53,108,200,73,1820.2711388025,false,539,96,-71.0240944369,1209,restricted_lp_candidate_negative
